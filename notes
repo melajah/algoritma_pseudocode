@@ -1,0 +1,93 @@
+https://docs.google.com/presentation/d/12pr9F3fIifXtOPgiZxHJwwYNAvgH8SqhpKqngTOshMY/edit#slide=id.g754aba4585_0_134
+
+https://drive.google.com/file/d/1T4ZhDP16VeGVQXdmfjfZYsXLGS3B5mtr/view recorded
+
+hari ini kita akan belajar fundamental pemrograman sebelum masuk ke js
+tahap awal belajar algo & pseudocode
+setiap ujian-ujian yang akan di uji js nya
+
+di hari kita akan mulai belajar fundamental pemrograman atau gerbang untuk masuk ke dunia pemrograman.
+
+ketika kalian sudah masuk ke dunia pemrograman (idihh mimpii), pasti kalian akan menumkan banya permasalahan yang harus kalian solve sendiri. ada cara untuk membantu kalian dalam menyelesaikan masalah yaitu algorith dan pseudocode sehingga alur solve problem/logika kalian to be rapi dan bisa terpecahkan
+
+algoritma => step by step sebuah procedure untuk menyelesaikan sesuatu sederhana nya seperti itu
+
+ask 2 students about step by step masak indomie sehingga siap saji
+compare answer students
+
+setiap orang punya cara atau procedure nya masing masing.
+
+di garis bawahi, ketika bikin algoritma klow bisa sedetail mungkin mungkin. 
+
+#slide 4
+di algoritma ada 3 proses penting
+- input => sesuatu yang kita masukkan atau yang saya pahami itu seperti menyiapkan bahan bahan nya (penampung). (pilih indomie dulu)
+- problem solving => melakukan proses penyelesain masalah ()
+- result => 
+
+algoritma kalian harus bayangin ada 3 proses itu, input, di olah, output. 
+
+#slide 5
+dibalik proses jalannya komputer itu ada banyak step by step / jutaan step by step. kenapa step by step itu bisa jalan di komputer ?
+
+#slide 6
+kita bicara tentang komputer.
+bahasa manusia. count 5 + 2
+bahasa computer. 0190219221
+
+#slide 7
+kita membutuhkan bahasa pemrograman agar step" bisa di baca oleh komputer
+
+#slide 8
+pseudocode letaknya dimana? 
+
+#slide 9
+human languange
+ - jika step by step permasalahan kalian share kepada teman kalian, pasti teman kalian bakal paham. namun terkadang bahasa kalian juga sulit di pahami ketika di share kpd orang luar negri misalkan dan dia programmer.
+
+pseudocode semi code, membantu untuk translate ke code
+ - untuk mempermudah ketika step by step dibaca pada programmer dan mau di convert kebahasa pemrograman
+
+#slide 11
+bagaimana cara membuat algo yang nantinya klow di implementasi ke bahasa pemrograman lain itu tetap match
+
+#slide 12
+3 materi yang harus kalian pahami dalam menulis pseudocode
+
+storing (menyinpan atau input)
+conditional (kondisi) 
+looping (proses yang berulang tergantung jumlah yang di tentukan)
+
+
+== base case ==
+saya disuruh untuk menghitung 50 kelereng di antaranya ber warna merah, kuning, hijau berdasarkan warna nya. 
+
+#algoritma
+1. jumlah kelereng 50
+2. hitungan "kelompok merah", "kelompok kuning", "kelompok hijau"
+3. ambil satu kelereng
+4. jika kelereng warnanya merah, maka akan kita tambahkan kedalam hitungan kelompok merah
+   jika kelereng warnanya kuning, maka akan kita tambahkan kedalam hitungan kelompok kuning
+   jika kelereng warnanya hijau, maka akan kita tambahkan kedalam hitungan kelompok hijau
+5. jika kelereng belum habis, maka kembali ke nomer 2
+   jika sudah habis, maka tampilkan jumlah "kelompok merah", "kelompok kuning", "kelompok hijau"
+
+
+== pseudocode ==
+STORE "kelompok merah" to zero
+STORE "kelompok kuning" to zero
+STORE "kelompok hijau" to zero
+STORE "kelerang" to 50
+
+While kelereng > 0 
+    If "kelereng" EQUAL "merah"
+        "kelompok merah" add to 1
+    IF "kelerang" EQUAL "kuning"
+        "kelompok kuning" add to 1
+    IF "kelerang" EQUAL "hijau"
+        "kelompok hijau" add to 1
+
+    kelerang - 1
+
+END While
+Display "kelompok merah", "kelompok kuning",  "kelompok hijau"
